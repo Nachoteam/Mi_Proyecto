@@ -1,0 +1,426 @@
+/*reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Antic Slab', serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+body {
+    
+     
+     width: auto;
+     height: 100%;  
+     
+
+}
+main {
+    margin: 50px 10% 50px 10%
+}
+h1 {text-align: center;
+margin-top: 50px;}
+#btn-menu {
+    display: none;
+}
+ header label { 
+     display: block; 
+     display: none;  
+ }
+ header label:hover {
+     cursor: pointer;
+     background: rgba(0, 0, 0, 0.3);
+ }
+
+.quienes-somos, form, .productos{
+   padding: 20px;
+}
+/* header */ 
+
+header {
+    grid-area: header;
+    align-items: center;
+    width: auto;
+    height: 80px; 
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-evenly;
+    background-color: rgba(11, 44, 78, 0.83);
+    border-bottom: 1px solid rgba(255, 255, 255, 255);
+    padding-left:20px ;
+    padding-right:20px ;
+   
+   
+}
+.servicio-tecnico img {
+    width:100%;
+    height: 200px;
+
+}
+
+
+header img {
+    width: auto;
+    height: 70px;
+}
+.servicio-tecnico {
+    grid-area: servicio-tecnico;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    
+}
+.bancodeprueba {
+    width: 40%;
+    height: 500px;
+    margin-right: 50px;
+    
+   
+}
+
+.nav-list li {
+    
+   
+    display: inline-block;
+    padding:20px;
+    list-style: none;
+}
+.nav-list a {
+    
+    color: rgb(244, 242, 252);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none; 
+}
+
+.nav-list a:hover{
+    color: rgba(12, 12, 12, 0.998)
+}
+h3 {
+    text-align: center;
+   
+}
+p {
+    color: #0c0c0c;
+
+}
+
+.productos div {
+    align-self: baseline;
+    width: 100%;
+    
+    display: inline-block;
+    
+
+}
+
+
+.productos p  {
+    padding: 10px;
+}
+
+.productos img {
+   
+    width: 250px;
+    height: 250px;
+    
+}
+.productos a {
+    background-color: rgb(9, 8, 8);
+    
+    color: rgb(230, 228, 228);
+    text-decoration: none;
+    border-radius: 2px;
+   
+}
+
+.productos {
+ grid-area: productos;
+    display: grid;
+   grid-template-columns: 350px 350px 350px;
+   grid-template-rows: 1fr 1fr;
+   grid-gap: auto;
+justify-items: stretch;
+align-items: stretch;
+  
+  
+}
+
+
+.bomba3 {
+   width:100px ;
+   height:100px ;
+    
+}
+
+    
+    
+
+.reductor img{ 
+ width:250px;
+height:170px;
+}
+
+form h2{
+    font-family: monospace;
+    color: rgb(244, 245, 246);
+  
+    text-align: left;
+}
+
+.divform {
+    height: 20%;
+    background-image: url("img/58888-ingenieria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+form {
+
+    width: 100%;
+    height: 350px
+   
+}
+
+ input, textarea {
+    width: 50%;
+    padding: 8px;
+    font-size: 17px;
+   
+   
+   
+}
+textarea {
+   height: auto;
+   
+}
+
+#form-btn {
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(26, 26, 147);
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+}
+
+#form-btn:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+footer a {
+    text-decoration: none;
+}
+
+
+
+ iframe {
+     padding: 30px;
+ }
+
+
+.marcas {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    padding: 0 20px ;
+    height: 45px;
+    
+    
+}
+.marcas img {
+    width:80px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+footer li {
+    color: rgb(216, 216, 216);
+}
+
+footer p {
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+  
+}
+.footer1 {
+    display: flex;
+    width: auto;
+    height: 15vh;
+    background-color: rgb(56, 56, 55);  
+   
+    justify-content: space-between;
+    border: 1px solid rgb(34, 34, 34);
+    align-items: center;
+    
+}
+
+.footer-right, .footer-left {
+   
+    padding: 0 100px;
+}
+.footer-right img {
+    
+    width: 60px;
+    height: auto;
+    padding-right: 15px;
+    
+   
+}
+.logo img{
+   align-self: center;
+    width: 150px;
+    height: auto;
+    grid-column: auto;
+}
+
+
+
+#derechos p {
+    padding-top: 5px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    background-color: black;
+    
+
+    
+}
+
+.lista-footer li {
+    list-style: none;
+}
+
+@media (max-width: 700px)  {
+    .body {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "header header"
+          "servicio-tecnico servicio-tecnico"
+          "productos productos"
+          "footer footer"; 
+      }
+
+    header label {
+        display: block
+    }
+    nav ul {
+        display: none
+    }
+   
+    .productos {
+        grid-area: productos;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+        grid-gap: 20px;
+       justify-items: stretch;
+       align-items: stretch;
+  }
+
+  #derechos p { justify-items: center;
+
+  }
+  .logo {
+    display: none;
+}
+.productos div {
+    display: inline;
+    align-items: center;
+    justify-content: center;}
+
+    .footer-right, .footer-left {
+   
+        padding: 0 20px;
+    }
+    .marca1, .marca2, .marca3, .marca4 {
+        display: none;
+    }
+  
+
+@media (max-width: 500px) {
+
+
+    .body {
+        display: grid; 
+        grid-template-columns: 1fr ; 
+        grid-template-rows: 1fr 1fr 1fr ; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "header"
+          "servicio-tecnico"
+          "productos"
+          "footer"; 
+      }
+
+    header label {
+        display: block
+    }
+    nav ul {
+        display: none
+    }
+   
+    .productos {
+        grid-area: productos;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-gap: 20px;
+       justify-items: stretch;
+       align-items: stretch;
+  }
+  
+
+  #derechos p { justify-items: center;
+
+  }
+
+.marca1, .marca2, .marca3, .marca4 {
+    display: none;
+}
+.logo {
+    display: none;
+}
+
+.productos div {
+    display: inline;
+    align-items: center;
+    justify-content: center;}
+}
+input, textarea, #form-btn {
+    width: 100%;
+
+  
+}
+main {
+    margin: 20px;
+}
+
+.servicio-tecnico {
+    display: inline-block;
+    width: 30vh;
+}
+
+}
+
+@media (max-width: 1400px) {
+    main {
+        margin: 10px
+    }
+}

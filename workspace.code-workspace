@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "paginas",
+			"path": "clase-0\\paginas"
+		},
+		{
+			"name": "imagenes",
+			"path": "clase-0\\imagenes"
+		},
+		{
+			"name": "clase-0",
+			"path": "clase-0"
+		},
+		{
+			"name": "Practica",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Practica"
+	}
+}
