@@ -14,7 +14,8 @@ body {
 }
 
 main {
-    margin: 20px
+    margin: 20px;
+    
 }
 
 h1 {text-align: center;
@@ -137,7 +138,7 @@ p {
 .productos {
  grid-area: productos;
     display: grid;
-   grid-template-columns: 350px 350px 350px;
+   grid-template-columns: auto auto auto;
    grid-template-rows: 1fr 1fr;
    grid-gap: auto;
 justify-items: stretch;
@@ -198,7 +199,7 @@ textarea {
 #form-btn {
     padding: 20px;
     color: #fff;
-    background-color: rgb(26, 26, 147);
+    background-color: #2d0682;
     border-radius: 10px;
     width: 50%;
     height: auto;
@@ -219,9 +220,7 @@ footer a {
 
 
 
- iframe {
-     padding: 30px;
- }
+ 
 
 
 .marcas {
@@ -260,16 +259,13 @@ footer p {
     height: 15vh;
     background: #191c29;
    
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid rgb(34, 34, 34);
     align-items: center;
     
 }
 
-.footer-right, .footer-left {
-   
-    padding: 0 100px;
-}
+
 .footer-right img {
     
     width: 60px;
@@ -282,7 +278,7 @@ footer p {
    align-self: center;
     width: 150px;
     height: auto;
-    grid-column: auto;
+    
 }
 
 
@@ -315,7 +311,20 @@ footer p {
           "productos productos"
           "footer footer"; 
       }
+      form h2 { 
+          padding-bottom: 30px 0 ;
+          text-align: center;
+          background-color: #2d0682;
+          border-radius: 50px;
+          
+      }
 
+   form {
+       
+       padding: 80px 30px;
+       
+   }
+    
     header label {
         display: block
     }
@@ -346,16 +355,18 @@ footer p {
 
     .footer-right, .footer-left {
    
-        padding: 0 20px;
+       margin: 30px
     }
-    .marca1, .marca2, .marca3, .marca4 {
+    .marca1, .marca2, .marca5, .marca6, .marca7 {
         display: none;
     }
   
 
 @media (max-width: 500px) {
 
-
+header { 
+    justify-content: space-between;
+}
     .body {
         display: grid; 
         grid-template-columns: 1fr ; 
@@ -390,9 +401,7 @@ footer p {
 
   }
 
-.marca1, .marca2, .marca3, .marca4 {
-    display: none;
-}
+
 .logo {
     display: none;
 }
@@ -403,7 +412,7 @@ footer p {
     justify-content: center;}
 }
 input, textarea, #form-btn {
-    width: 100%;
+   width: 100%;
 
   
 }
@@ -412,7 +421,7 @@ input, textarea, #form-btn {
     height: 50vh;
 }
 main {
-    margin: 20px;
+    margin: 0 20px;
 }
 
 .servicio-tecnico {
@@ -421,10 +430,5 @@ main {
 }
 .footer1 { height: 30vh;}
 
-}
 
-@media (max-width: 1400px) {
-    main {
-        margin: 10px
-    }
 }
