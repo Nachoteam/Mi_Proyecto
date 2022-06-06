@@ -13,10 +13,6 @@ body {
 
 }
 
-
-
-h1 {text-align: center;
-margin-top: 50px;}
 #btn-menu {
     display: none;
 }
@@ -26,7 +22,7 @@ margin-top: 50px;}
  }
  header label:hover {
      cursor: pointer;
-     background: rgba(0, 0, 0, 0.3);
+     background: rgba(148, 24, 24, 0.3);
  }
 
 .quienes-somos, form, .productos{
@@ -67,8 +63,7 @@ header img {
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
 :root{
---color: rgb(5, 7, 48); 
-}
+--color: rgb(23, 22, 22);  }
 
 body {
   font-family: 'Red Hat Text', sans-serif;
@@ -78,7 +73,7 @@ body {
   text-align: center;
   color: var(--color);
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,7 +97,7 @@ p {
   display: inline-block;
   padding: 1em 3.5em;
   background-color: var(--color);
-  color: white;
+  color:#fff;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 0.3em;
@@ -111,7 +106,11 @@ p {
   font-size: .875rem;
 }
 
+.item:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
 
+}
 .other {
   width: 100%;
   min-height: 60vh;
@@ -119,7 +118,7 @@ p {
 }
 
 .second {
-  background-image:url(img/58888-ingenieria.jpg);
+  background-image:url(img/Internet-Live-Fondo.jpg);
   background-attachment: fixed;
   height: auto;
 }
@@ -137,7 +136,7 @@ h3 {
 .item {
   display: flex;
   max-width: auto;
-  background-color: white;;
+  background-color: rgb(255, 255, 255);;
   flex-direction: column;
   align-items: center;
   border-radius: .5em;
@@ -147,8 +146,8 @@ h3 {
 }
 
 .img {
-  width: 100%;
-  height: 200px;
+  width: 90%;
+  height: 250px;
   background-color: lightgrey;
   background-size: cover;
   background-position: center;
@@ -157,15 +156,21 @@ h3 {
 }
 
 .img-first {
-  background-image: url(img/banco\ de\ prueba.jpg.webp);
+  background-image: url(img/bancodeprueba2.jpg);
+  width: 90%;
+  height: 250px;
 }
 
 .img-second {
   background-image: url(img/bombas/reductorplanetario.jpg);
+  width: 90%;
+  height:180px;
 }
 
 .img-third {
   background-image: url(img/fabrica-cilindros-hidraulicos.jpg);
+  width: 90%;
+  height:180px;
 }
 
 .second {
@@ -194,7 +199,7 @@ h3 {
 }
 
 .nav-list a:hover{
-    color: #354999
+    color: #090909
 }
 h3 {
     text-align: center;
