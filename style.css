@@ -13,10 +13,7 @@ body {
 
 }
 
-main {
-    margin: 20px;
-    
-}
+
 
 h1 {text-align: center;
 margin-top: 50px;}
@@ -65,20 +62,121 @@ header img {
     width: auto;
     height: 70px;
 }
-.servicio-tecnico {
-    grid-area: servicio-tecnico;
-    display: flex;
-    justify-content: space-between;
-    width: 1000px;
-    
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+--color: rgb(5, 7, 48); 
 }
-.bancodeprueba {
-    width: 40%;
-    height: 500px;
-    margin-right: 50px;
-    
-   
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
 }
+
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  
+/*  this is where the magic happens:  */
+
+}
+
+
+
+p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+}
+
+.leer-mas {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+}
+
+
+.other {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+}
+
+.second {
+  background-image:url(img/58888-ingenieria.jpg);
+  background-attachment: fixed;
+  height: auto;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+
+.card > .leer-mas {
+  margin-bottom: 2em;
+}
+
+.item {
+  display: flex;
+  max-width: auto;
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url(img/banco\ de\ prueba.jpg.webp);
+}
+
+.img-second {
+  background-image: url(img/bombas/reductorplanetario.jpg);
+}
+
+.img-third {
+  background-image: url(img/fabrica-cilindros-hidraulicos.jpg);
+}
+
+.second {
+  flex-direction: row;
+  gap: 8%;
+}
+
+ 
+
+
+
 
 .nav-list li {
     
@@ -102,10 +200,7 @@ h3 {
     text-align: center;
    
 }
-p {
-    color: #0c0c0c;
 
-}
 
 .productos div {
     align-self: baseline;
@@ -158,10 +253,7 @@ align-items: stretch;
     
     
 
-.reductor img{ 
- width:250px;
-height:170px;
-}
+
 
 form h2{
     font-family: monospace;
@@ -284,17 +376,18 @@ footer p {
 
 
 
-#derechos p {
-    padding-top: 5px;
+#derechos h4 {
+    padding: 10px 0;
     font-size: 16px;
     width: 100%;
     text-align: center;
     height: 40px;
     background-color: black;
-    
+    color: #fff;
 
     
 }
+
 
 .lista-footer li {
     list-style: none;
@@ -364,7 +457,18 @@ footer p {
   
 
 @media (max-width: 500px) {
-
+    .container{
+   
+        display: inline-block;
+        
+      
+    }
+    .other {min-height: 100vh;}
+    
+    .item {
+        border: 1px solid;
+       margin: 20px 0;
+    }
 header { 
     justify-content: space-between;
     background: rgb(1,20,28);
@@ -423,9 +527,7 @@ input, textarea, #form-btn {
 .divform { 
     height: 50vh;
 }
-main {
-    margin: 0 20px;
-}
+
 
 .servicio-tecnico {
     display: inline-block;
