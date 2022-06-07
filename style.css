@@ -5,6 +5,8 @@
     box-sizing: border-box;
     font-family: 'Antic Slab', serif;
     font-family: 'Roboto Condensed', sans-serif; 
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -28,14 +30,13 @@ body {
 .quienes-somos, form, .productos{
    padding: 20px;
 }
-/* header */ 
 
 
 header {
     -webkit-box-shadow: 0px 22px 20px -14px #000;
      -moz-box-shadow: 0px 22px 20px -14px #000;
           box-shadow: 0px 22px 20px -14px #000;
-justify-content: space-around;
+    justify-content: space-around;
     grid-area: header;
     align-items: center;
     width: auto;
@@ -88,12 +89,8 @@ body {
   justify-content: center;
   background-size: cover;
   background-position: center;
-  
-/*  this is where the magic happens:  */
 
 }
-
-
 
 p {
   max-width: 52ch;
@@ -106,7 +103,7 @@ p {
   padding: 1em 3.5em;
   background-color: var(--color);
   color:#fff;
-  text-decoration: none;
+ 
   text-transform: uppercase;
   border-radius: 0.3em;
   font-weight: 700;
@@ -116,7 +113,7 @@ p {
 
 .item:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3%)
+    transform: translateY(-1%)
 
 }
 .other {
@@ -140,8 +137,11 @@ h3 {
 .card > .leer-mas {
   margin-bottom: 2em;
 }
-
+.card {
+    height: 300px;
+}
 .item {
+  height: 500px;
   display: flex;
   max-width: auto;
   background-color: rgb(255, 255, 255);;
@@ -154,11 +154,10 @@ h3 {
 }
 
 .img {
-  width: 90%;
-  height: 250px;
   background-color: lightgrey;
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
   margin-top: 20px;
   border-radius: .3em;;
 }
@@ -196,7 +195,7 @@ h3 {
    
     display: inline-block;
    padding: 10px;
-    list-style: none;
+    
 }
 .nav-list a {
     
@@ -360,6 +359,9 @@ footer p {
   
 }
 .footer1 {
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
     display: flex;
     width: auto;
     height: 15vh;
@@ -482,10 +484,13 @@ footer p {
         border: 1px solid;
        margin: 20px 0;
     }
-header { 
+    header {  
+    padding-right: 60px;
+   
     justify-content: space-between;
     background: rgb(1,20,28);
-    background: linear-gradient(90deg, rgba(1,20,28,1) 31%, rgba(53,73,153,1) 31%);
+    background: linear-gradient(90deg, rgba(1,20,28,1) 50%, rgba(53,73,153,1) 50%);
+    position: static;
 }
     .body {
         display: grid; 
@@ -502,6 +507,13 @@ header {
     header label {
         display: block
     }
+ 
+  .container  {
+      margin: 20px 10%;
+  }
+ .item {
+     width: 80vw ;
+ }
     nav ul {
         display: none
     }
