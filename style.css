@@ -485,9 +485,9 @@ footer p {
        margin: 20px 0;
     }
     header {  
-    padding-right: 60px;
+  
    
-    justify-content: space-between;
+    justify-content: last baseline;
     background: rgb(1,20,28);
     background: linear-gradient(90deg, rgba(1,20,28,1) 50%, rgba(53,73,153,1) 50%);
     position: static;
