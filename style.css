@@ -4,13 +4,13 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Antic Slab', serif;
-    font-family: 'Roboto Condensed', sans-serif; 
+    font-family: 'Roboto Condensed', sans-serif;
     list-style: none;
     text-decoration: none;
 }
 
 body {
-    
+
     min-width: 100vw;
 
 }
@@ -18,51 +18,55 @@ body {
 #btn-menu {
     display: none;
 }
- header label { 
-     display: block; 
-     display: none;  
- }
- header label:hover {
-     cursor: pointer;
-     background: rgba(148, 24, 24, 0.3);
- }
 
-.quienes-somos, form, .productos{
-   padding: 20px;
+header label {
+    display: block;
+    display: none;
 }
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(148, 24, 24, 0.3);
+}
+
+
+
 
 
 header {
     -webkit-box-shadow: 0px 22px 20px -14px #000;
-     -moz-box-shadow: 0px 22px 20px -14px #000;
-          box-shadow: 0px 22px 20px -14px #000;
+    -moz-box-shadow: 0px 22px 20px -14px #000;
+    box-shadow: 0px 22px 20px -14px #000;
     justify-content: space-around;
     grid-area: header;
     align-items: center;
     width: auto;
-    height: 10vh; 
+    height: 10vh;
     display: flex;
     position: sticky;
     top: 0;
-   
-    background: rgb(1,20,28);
-    background: linear-gradient(90deg, rgba(1,20,28,1) 31%, rgba(53,73,153,1) 31%);
-   
-    padding-left:20px ;
-    padding-right:20px ;
-   
-   
+    z-index: +1000;
+
+    background-color: #191c29;
+
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+
 }
+
 .servicio-tecnico img {
-    width:100%;
+    width: 100%;
     height: 200px;
 
 }
 
 .logodiv {
     width: 30%;
-   
+
 }
+
 header img {
     width: auto;
     height: 70px;
@@ -71,206 +75,53 @@ header img {
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
-:root{
---color: rgb(23, 22, 22);  }
+
 
 body {
-  font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
 }
 
-.container-fluid {
-   
-  text-align: center;
-  color: var(--color);
-  width: 100%;
-  min-height: 50vh;
-  display: grid;
-  row-gap: 30px;
-  column-gap: 30px;
-  align-items: center;
-  justify-items: center;
-}
 
-p {
-  max-width: 52ch;
-  line-height: 1.5;
-  padding: 1em;
-}
 
-.leer-mas {
-  display: inline-block;
-  padding: 1em 3.5em;
-  background-color: var(--color);
-  color:#fff;
- 
-  text-transform: uppercase;
-  border-radius: 0.3em;
-  font-weight: 700;
-  letter-spacing: .5px;
-  font-size: .875rem;
-}
 
-.item:hover {
+
+
+
+.card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-1%)
-
 }
-.other {
-  width: 100%;
-  min-height: 60vh;
-  background-color: var(--color);
-}
-
-.second {
-  background-image:url(img/Internet-Live-Fondo.jpg);
-  background-attachment: fixed;
-  height: auto;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 1.6rem;
-  margin-top: 1em;
-}
-
-.card > .leer-mas {
-  margin-bottom: 2em;
-}
-.card {
-    height: 300px;
-}
-.item {
-  height: auto;
-  width: auto;
-  display: flex;
-  max-width: auto;
-  background-color: rgb(255, 255, 255);;
-  
-  align-items: center;
-  border-radius: .5em;
-  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-}
-
-.img {
-  background-color: lightgrey;
-  background-size: cover;
-  background-position: center;
- 
-  margin-top: 20px;
-  border-radius: .3em;
-}
-
-.img-first {
-  background-image: url(img/bancodeprueba2.jpg);
-  width: 90%;
-  height: 250px;
-}
-
-.img-second {
-  background-image: url(img/bombas/reductorplanetario.jpg);
-  width: 90%;
-  height:180px;
-}
-
-.img-third {
-  background-image: url(img/fabrica-cilindros-hidraulicos.jpg);
-  width: 90%;
-  height:180px;
-}
-
-.second {
-  flex-direction: row;
-  gap: 8%;
-}
-
- 
-
-
 
 
 .nav-list li {
-    
-   
     display: inline-block;
-   padding: 10px;
-    
+    padding: 10px;
+    margin-top: 15px;
 }
+
 .nav-list a {
-    
     color: rgb(244, 242, 252);
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-.nav-list a:hover{
-    color: #090909
+.nav-list a:hover {
+    color: #6ca331
 }
-h3 {
-    text-align: center;
-   
-}
+
 
 
 .productos div {
     align-self: baseline;
     width: 100%;
-    
     display: inline-block;
-    
-
 }
 
-
-.productos p  {
-    padding: 10px;
-}
-
-.productos img {
-   
-    width: 250px;
-    height: 250px;
-    
-}
-.productos a {
-    background-color: rgb(9, 8, 8);
-    
-    color: rgb(230, 228, 228);
-    text-decoration: none;
-    border-radius: 2px;
-   
-}
-
-.productos {
- grid-area: productos;
-    display: grid;
-   grid-template-columns: auto auto auto;
-   grid-template-rows: 1fr 1fr;
-   grid-gap: auto;
-justify-items: stretch;
-align-items: stretch;
-  
-  
-}
-
-
-.bomba3 {
-   width:100px ;
-   height:100px ;
-    
-}
-
-    
-    
-
-
-
-form h2{
+form h2 {
     font-family: monospace;
     color: rgb(244, 245, 246);
-  
+
     text-align: left;
 }
 
@@ -280,25 +131,27 @@ form h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
-   
-form {
+
+.form1 {
 
     width: 100%;
-    height: 350px
-   
+    height: 20vh
 }
 
- input, textarea {
+input,
+textarea {
     width: 50%;
     padding: 8px;
     font-size: 17px;
-   
-   
-   
+
+
+
 }
+
+
 textarea {
-   height: auto;
-   
+    height: auto;
+
 }
 
 #form-btn {
@@ -324,29 +177,31 @@ footer a {
 }
 
 
+main { margin: 1rem}
 
- 
 
 
 .marcas {
     display: flex;
     justify-content: space-between;
     border: 2px solid;
-    padding: 0 20px ;
+    padding: 0 20px;
     height: 45px;
-    
-    
+
+
 }
+
 .marcas img {
-    width:80px;
+    width: 80px;
     height: auto;
     padding-top: 10px;
-    padding-bottom: 10px;  
+    padding-bottom: 10px;
 }
 
 
 footer {
     grid-area: footer;
+
 }
 
 footer li {
@@ -356,37 +211,39 @@ footer li {
 footer p {
     font-size: 20px;
     color: rgb(216, 216, 216);
-  
+
 }
+
 .footer1 {
-    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
-    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
     display: flex;
     width: auto;
     height: 15vh;
     background: #191c29;
-   
+
     justify-content: space-around;
     border: 1px solid rgb(34, 34, 34);
     align-items: center;
-    
+
 }
 
 
 .footer-right img {
-    
+
     width: 60px;
     height: auto;
     padding-right: 15px;
-    
-   
+
+
 }
-.logo img{
-   align-self: center;
+
+.logo img {
+    align-self: center;
     width: 150px;
     height: auto;
-    
+
 }
 
 
@@ -400,11 +257,90 @@ footer p {
     background-color: black;
     color: #fff;
 
-    
+
+}
+
+@media (max-width: 576px) {
+    .img-logo {
+        margin-right: 300px;
+    }
 }
 
 
-.lista-footer li {
-    list-style: none;
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+    .img-logo {
+        margin-right: 300px;
+    }
 }
 
+/* Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+    nav ul {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    header {
+        position: static;
+    }
+
+    nav label {
+        display: block;
+        margin-right: 50px;
+    }
+
+    .marca1,
+    .marca2,
+    .marca3,
+    .marca4 {
+        display: none;
+    }
+
+    .img-logo {
+        margin-right: 200px;
+    }
+
+    header {
+        height: 12vh;
+    }
+
+    nav label img {
+        width: 60px;
+        height: auto;
+    }
+
+    .footer1 {
+        height: 30vh;
+
+        width: 100%;
+    }
+
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        font-size: 17px;
+        margin-bottom: 1rem;
+    }
+
+   
+}
+
+
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (max-width: 1400px) {}
