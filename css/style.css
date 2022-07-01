@@ -2,8 +2,40 @@
   color: #FFA500;
 }
 
-.card .btn {
+.card .card-body .btn {
+  font-family: "Antic Slab";
+  font-weight: bold;
+  font-size: 25px;
   background-color: black;
+  color: rgb(241, 168, 32);
+}
+
+header {
+  background-color: black !important;
+}
+
+.title-productos {
+  font-size: 60px;
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(14, 14, 82);
+  text-shadow: #000;
+}
+
+.title-servicios {
+  font-size: 60px;
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(14, 14, 82);
+  text-shadow: #000;
+}
+
+.social .bi-instagram, .social .bi-twitter, .social .bi-facebook {
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 10px;
+}
+.nav-list a:hover {
   color: #FFA500;
 }
 

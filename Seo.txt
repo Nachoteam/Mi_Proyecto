@@ -1,0 +1,5 @@
+- Agregue al meta tag Keywords y descricion en todas las paginas 
+- agregue descripciones a las fotos de los productos
+
+
+Agregue titulos h1 a las secciones mas importantes del sitio web. 

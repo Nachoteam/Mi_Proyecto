@@ -1,17 +1,70 @@
 @import "colores";
+$estilosBoton: (
+  color: rgb(241, 168, 32),
+  centro: center,
+  fuente: "Antic Slab",
+  negrita: bold,
+  tamaño: 25px,
+  fondo: black,
+);
+
+@mixin title {
+  font-size: 60px;
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(14, 14, 82);
+  text-shadow: #000;
+}
+
+.nav-list a:hover {
+  color: $colorPrimario;
+}
+
+.card {
+  .card-body {
+    .btn {
+      font-family: map-get($map: $estilosBoton, $key: fuente);
+      font-weight: map-get($map: $estilosBoton, $key: negrita);
+      font-size: map-get($map: $estilosBoton, $key: tamaño);
+      background-color: map-get($map: $estilosBoton, $key: fondo);
+      color: map-get($map: $estilosBoton, $key: color);
+    }
+  }
+}
+header {
+  background-color: $colorSecundario !important;
+}
+
+.title-productos {
+  @include title;
+}
+
+.title-servicios {
+  @include title;
+}
+
+.social {
+  .bi-instagram {
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+    .bi-facebook {
+      @extend .bi-instagram;
+    }
+
+    .bi-twitter {
+      @extend .bi-instagram;
+    }
+  }
 
 .nav-list a:hover {
     color: $colorPrimario;
 
 }
 
-.card { 
-    .btn {
-        background-color: $colorSecundario;
-        color: $colorPrimario;
-    }
-    
-}
+
 header{background-color: $colorSecundario !important;}
 
 
