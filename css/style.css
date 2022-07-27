@@ -1,125 +1,3 @@
-.nav-list a:hover {
-  color: #FFA500;
-}
-
-.card .card-body .btn {
-  font-family: "Antic Slab";
-  font-weight: bold;
-  font-size: 25px;
-  background-color: black;
-  color: rgb(241, 168, 32);
-}
-
-header {
-  background-color: black !important;
-}
-
-.title-productos {
-  font-size: 60px;
-  padding: 15px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: rgb(14, 14, 82);
-  text-shadow: #000;
-}
-
-.title-servicios {
-  font-size: 60px;
-  padding: 15px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: rgb(14, 14, 82);
-  text-shadow: #000;
-}
-
-.social .bi-instagram, .social .bi-twitter, .social .bi-facebook {
-  color: #ffffff;
-  font-size: 2rem;
-  padding: 10px;
-}
-.nav-list a:hover {
-  color: #FFA500;
-}
-
-header {
-  background-color: black !important;
-}
-
-/*reset*/
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Antic Slab", serif;
-  font-family: "Roboto Condensed", sans-serif;
-  list-style: none;
-  text-decoration: none;
-}
-
-body {
-  min-width: 100vw;
-}
-
-#btn-menu {
-  display: none;
-}
-
-header label {
-  display: block;
-  display: none;
-}
-
-header label:hover {
-  cursor: pointer;
-  background: rgba(148, 24, 24, 0.3);
-}
-
-header {
-  box-shadow: 0px 22px 20px -14px #000;
-  justify-content: space-around;
-  grid-area: header;
-  align-items: center;
-  width: auto;
-  height: 10vh;
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #191c29;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.logodiv {
-  width: 30%;
-}
-
-header img {
-  width: auto;
-  height: 70px;
-}
-
-body {
-  font-family: "Red Hat Text", sans-serif;
-}
-
-.card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-1%);
-}
-
-.nav-list li {
-  display: inline-block;
-  padding: 10px;
-  margin-top: 15px;
-}
-
-.nav-list a {
-  color: rgb(244, 242, 252);
-  font-size: 15px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  text-decoration: none;
-}
-
 /* form    */
 a,
 a:hover,
@@ -631,6 +509,136 @@ img {
   background: #131313;
 }
 
+main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+main iframe {
+  height: 500px;
+}
+
+.nav-list a:hover {
+  color: #FFA500;
+}
+
+.card .card-body .btn {
+  font-family: "Antic Slab";
+  font-weight: bold;
+  font-size: 25px;
+  background-color: black;
+  color: rgb(241, 168, 32);
+}
+
+header {
+  background-color: black !important;
+}
+
+.title-productos {
+  font-size: 60px;
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(14, 14, 82);
+  text-shadow: #000;
+}
+
+.title-servicios {
+  font-size: 60px;
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(14, 14, 82);
+  text-shadow: #000;
+}
+
+.social .bi-instagram, .social .bi-twitter, .social .bi-facebook {
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 10px;
+}
+.nav-list a:hover {
+  color: #FFA500;
+}
+
+header {
+  background-color: black !important;
+}
+
+/*reset*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Antic Slab", serif;
+  font-family: "Roboto Condensed", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  min-width: 100vw;
+}
+
+#btn-menu {
+  display: none;
+}
+
+header label {
+  display: block;
+  display: none;
+}
+
+header label:hover {
+  cursor: pointer;
+  background: rgba(148, 24, 24, 0.3);
+}
+
+header {
+  box-shadow: 0px 22px 20px -14px #000;
+  justify-content: space-around;
+  grid-area: header;
+  align-items: center;
+  width: auto;
+  height: 10vh;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #191c29;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logodiv {
+  width: 30%;
+}
+
+header img {
+  width: auto;
+  height: 70px;
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1%);
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.nav-list a {
+  color: rgb(244, 242, 252);
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+
 footer a {
   text-decoration: none;
 }
@@ -711,45 +719,36 @@ footer li {
   nav ul {
     display: none;
   }
-
   .logo {
     display: none;
   }
-
   header {
     position: static;
   }
-
   nav label {
     display: block;
     margin-right: 50px;
   }
-
   .marca1,
 .marca2,
 .marca3,
 .marca4 {
     display: none;
   }
-
   .img-logo {
     margin-right: 200px;
   }
-
   header {
     height: 12vh;
   }
-
   nav label img {
     width: 60px;
     height: auto;
   }
-
   .footer1 {
     height: 30vh;
     width: 100%;
   }
-
   input,
 textarea {
     width: 100%;
